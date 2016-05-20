@@ -2,7 +2,7 @@ var username = "username";
 var password = "password";
 
 var casper = require('casper').create({
-	verbose: true, 
+    verbose: true, 
     logLevel: 'debug',
     waitTimeout: 10000,
     pageSettings: {
